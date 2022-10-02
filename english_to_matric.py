@@ -4,8 +4,6 @@ x kg = lbs / 2.205
 x lbs = kg * 2.205
 x inch = cm / 2.54
 '''
-from multiprocessing.util import ForkAwareThreadLock
-
 
 def to_matric(inches, pounds):
   cm = round(inches * 2.54, 2)
